@@ -16,5 +16,4 @@ const authStore = useAuthStore();
 </template>
 
 <style>
-@import '@/assets/base.css';
 </style>
