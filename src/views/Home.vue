@@ -9,7 +9,7 @@ const { user } = storeToRefs(authStore);
 
 <template>
     <div v-if="user">
-        <h1>Bienvenido administrado de TUSCORE: {{user.firstName}}!</h1>
+        <h1>Bienvenido administrado de TUSCORE:  {{user.firstName}}!</h1>
        
         <p><router-link to="/users">Gestion de usuarios</router-link></p>
     </div>
