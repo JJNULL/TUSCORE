@@ -10,14 +10,14 @@ usersStore.getAll();
 </script>
 
 <template>
-    <h1>Users</h1>
-    <router-link to="/users/add" class="btn btn-sm btn-success mb-2">Add User</router-link>
+    <h1>Usuarios Admin</h1>
+    <router-link to="/users/add" class="btn btn-sm btn-success mb-2">Agregar Usuarios Admin</router-link>
     <table class="table table-striped">
         <thead>
             <tr>
-                <th style="width: 30%">First Name</th>
-                <th style="width: 30%">Last Name</th>
-                <th style="width: 30%">Username</th>
+                <th style="width: 30%"> Nombre</th>
+                <th style="width: 30%">Apellido</th>
+                <th style="width: 30%">Nombre de Usuario</th>
                 <th style="width: 10%"></th>
             </tr>
         </thead>

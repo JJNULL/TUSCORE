@@ -1,0 +1,1 @@
+export { default as Partidosgeneral } from './Partidosgeneral.vue';
